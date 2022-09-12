@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/src/css/estilo.css"/>
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="calc">
+        <h3>Calculadora</h3>
+        <div id="operacoes">
+            <div id="operacaoAnterior"></div>
+            <div id="operacaoAtual"></div>
+        </div>
+    
+    <div id="buttons-container">
+        <button onclick="ce()">CE</button>
+        <button onclick="clean()" >C</button>
+        <button onclick="del()">DEL</button>
+        <button onclick="insert('/')" >/</button>
+        <button id="numeros" onclick="insert('7')">7</button>
+        <button id="numeros" onclick="insert('8')">8</button>
+        <button id="numeros" onclick="insert('9')">9</button>
+        <button onclick="insert('*')" >*</button>
+        <button id="numeros" onclick="insert('4')" >4</button>
+        <button id="numeros" onclick="insert('5')" >5</button>
+        <button id="numeros" onclick="insert('6')" >6</button>
+        <button onclick="insert('-')" >-</button>
+        <button id="numeros" onclick="insert('1')" >1</button>
+        <button id="numeros" onclick="insert('2')" >2</button>
+        <button id="numeros" onclick="insert('3')" >3</button>
+        <button onclick="insert('+')" >+</button>
+        <button id="numeros" onclick="insert('0')" >0</button>
+        <button id="numeros" onclick="insert('.')" >.</button>
+        <button id="igual" onclick="calcular()" >=</button>
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="/src/js/script.js"></script>
+</body>
+</html>
