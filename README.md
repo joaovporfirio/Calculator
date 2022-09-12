@@ -2,7 +2,7 @@ Readme
 
 # Calculator
 
-<img src="readme-calculator-desktop.png" alt="Calculadora">
+<img src="Readme-calculator-desktop.png" alt="Calculadora">
 
 
 
