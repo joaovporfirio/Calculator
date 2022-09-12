@@ -3,6 +3,7 @@ Readme
 # Calculator
 
 <img src="Readme-calculator-desktop.PNG" alt="Calculadora">
+<img src="Readme-calculator-desktop2.PNG" alt="Calculadora">
 
 
 
